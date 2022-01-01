@@ -1,0 +1,46 @@
+.footer
+  background: $mainBgColor
+  padding: 180px 0 40px
+  text-align: center
+  @include tablet
+    padding: 60px 0 40px
+  &__logo
+    display: inline-block
+    margin-bottom: 60px
+    @include tablet
+      margin-bottom: 20px
+  &-info
+    display: flex
+    justify-content: center
+    gap: 30px
+    font-size: 18px
+    line-height: 27px
+    text-transform: uppercase
+    margin-bottom: 60px
+    @include tablet
+      margin-bottom: 20px
+      font-size: 12px
+      gap: 10px
+    &__category
+      text-align: right
+      font-weight: 600
+    &__contact
+      text-align: left
+  &-rights
+    font-size: 13px
+    line-height: 19px
+    text-transform: uppercase
+    color: #FFFFFF
+    opacity: 0.5
+
+.social
+  display: flex
+  gap: 30px
+  justify-content: center
+  margin-bottom: 100px
+  @include tablet
+    margin-bottom: 20px
+  &__image
+    @include mobile
+      width: 30px
+      height: 30px
