@@ -76,10 +76,6 @@ a {
   }
 }
 
-.header-nav__logo {
-  margin-right: 5.2vw;
-}
-
 .header-nav__image {
   vertical-align: middle;
 }
@@ -119,7 +115,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 4.31vw;
+  gap: 2.31vw;
 }
 
 .header-menu__item {
